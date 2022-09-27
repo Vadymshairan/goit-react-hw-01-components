@@ -33,7 +33,7 @@
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
     "name": "Salo",
-    "isOnline": false,
+    "isOnline": true,
     "id": 1289
   }
 ]
