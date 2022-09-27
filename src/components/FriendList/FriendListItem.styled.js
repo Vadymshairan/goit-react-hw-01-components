@@ -11,7 +11,7 @@ export const Item = styled.li`
 `;
 
 function onlineStatus({ isOnline }) {
-  return isOnline ? '#ff2400' : '#00a000';
+  return isOnline ? '#00a000' : '#ff2400';
 }
 export const Status = styled.span`
   display: flex;
