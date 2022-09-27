@@ -10,8 +10,8 @@ export const Item = styled.li`
   gap: 10px;
 `;
 
-function OnlineStatus({ isOnline }) {
-  return isOnline ? 'green' : 'red';
+function onlineStatus({ isOnline }) {
+  return isOnline ? '#ff2400' : '#00a000';
 }
 export const Status = styled.span`
   display: flex;
@@ -20,7 +20,7 @@ export const Status = styled.span`
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: ${OnlineStatus};
+  background-color: ${onlineStatus};
 `;
 export const Avatar = styled.img`
   border-radius: 6px;
