@@ -1,12 +1,15 @@
 import styled from '@emotion/styled';
 
 export const Table = styled.table`
-  width: 100%;
+  margin: 20px auto;
+
+  width: 50%;
+  text-align: center;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
   font-size: 14px;
   border-radius: 10px;
   border-spacing: 0;
-  text-align: center;
+
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
 
