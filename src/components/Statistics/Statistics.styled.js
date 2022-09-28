@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
+export function getRandomColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
+
 export const StatisticsContainer = styled.section`
   margin: 20px auto;
   max-width: 250px;
