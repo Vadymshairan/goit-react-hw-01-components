@@ -15,11 +15,9 @@ export const Table = styled.table`
 
 export const Thead = styled.thead``;
 export const Tr = styled.tr`
-  :nth-child(odd) {
-    background: #f0f0f0;
-  }
+  background: #f0f0f0;
 
-  :nth-child(even) {
+  :nth-of-type(2n) {
     background: lightgrey;
   }
 `;
