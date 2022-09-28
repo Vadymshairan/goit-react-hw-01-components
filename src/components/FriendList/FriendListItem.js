@@ -13,7 +13,7 @@ export const FriendListItem = ({ userAvatar, userName, userStatus }) => {
 };
 
 FriendListItem.propTypes = {
-  userAvatar: PropTypes.string,
+  userAvatar: PropTypes.string.isRequired,
   userName: PropTypes.string.isRequired,
   userStatus: PropTypes.bool.isRequired,
 };
