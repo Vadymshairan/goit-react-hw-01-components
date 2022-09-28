@@ -14,6 +14,7 @@ export const Table = styled.table`
 `;
 
 export const Thead = styled.thead``;
+
 export const Tr = styled.tr`
   background: #f0f0f0;
 
@@ -21,7 +22,7 @@ export const Tr = styled.tr`
     background: lightgrey;
   }
 `;
-export const Th = styled.th`
+export const TableHeading = styled.th`
   padding: 10px 20px;
   background: #30d5c8;
   color: #ffff;
@@ -31,7 +32,7 @@ export const Th = styled.th`
   border-width: 0 1px 1px 0;
   border-color: white;
 `;
-export const Td = styled.td`
+export const TableData = styled.td`
   vertical-align: middle;
   padding: 10px;
   font-size: 14px;
